@@ -13,7 +13,7 @@
           {{#each files~}}
             {{#unless isVideo}}
               <li data-thumb="{{relative urls.thumbnail}}" data-src="{{relative urls.large}}">
-                <img src="{{relative urls.large}}" alt="{{filename}}">
+                <img loading="lazy" src="{{relative urls.large}}" alt="{{filename}}">
               </li>
             {{/unless}}
           {{~/each}}

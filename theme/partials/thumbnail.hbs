@@ -41,7 +41,7 @@
     {{~else~}}
     <a href="{{relative urls.large}}">
     {{~/if~}}
-        <img
+        <img loading="lazy"
             src="{{relative urls.small}}"
             width="{{multiply 300 (aspect meta.width meta.height)}}"
             height="300"
