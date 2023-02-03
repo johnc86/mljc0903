@@ -4,19 +4,9 @@
   <!--
     Gallery title
   -->
-  <header>
+  <header style="padding: 1rem">
     <h1><a href="{{relative gallery.home.url}}">{{gallery.title}}</a></h1>
   </header>
-
-  <!--
-    Breadcrumbs of parent albums
-  -->
-  <nav class="breadcrumbs">
-    {{#each breadcrumbs~}}
-      <a class="breadcrumb-item" href="{{relative url}}">{{title}}</a>&nbsp;/&nbsp;
-    {{~/each~}}
-    <a class="breadcrumb-item" href="{{relative album.url}}">{{album.title}}</a>
-  </nav>
 
   {{#if settings.featuredAlbum}}
   {{#if album.home}}
