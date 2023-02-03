@@ -6,8 +6,8 @@
   "sort-media-by": "filename",
   "download-photos": "copy",
   "cleanup": true,
-  "theme": "flow",
+  "themepath": "./theme",
   "css": "./custom.css",
-  "footer": "Thanks to everybody who made the trip to Poland to make our day extra special.",
+  "footer": "Thanks to everybody who made the trip to Poland to make our day extra special. This page can be a bit slow to load there are 800 images. If you are a nerd and want the full res originals, there is a branch on the github repo.",
   "usage-stats": false
 }
